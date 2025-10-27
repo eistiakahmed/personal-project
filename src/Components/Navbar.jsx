@@ -4,11 +4,14 @@ import { NavLink } from 'react-router';
 const Navbar = () => {
   const links = (
     <>
-      <li>
+      <li className='font-medium'>
         <NavLink to="/">Home</NavLink>
       </li>
-      <li>
+      <li className='font-medium'>
         <NavLink to="/counterApp">Counter App</NavLink>
+      </li>
+      <li className='font-medium'>
+        <NavLink to="/todoApp">To-Do App</NavLink>
       </li>
     </>
   );
@@ -42,7 +45,7 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl"> Dangerous AI </a>
+          <a className="font-bold text-2xl"> Dangerous AI </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">

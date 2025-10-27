@@ -17,6 +17,7 @@ const CounterApp = () => {
 
   return (
     <div className=" shadow-md w-[500px] mx-auto  p-5 mt-10 rounded-2xl bg-orange-400">
+      <title>Counter Apps</title>
       <h1 className='font-bold text-2xl my-3 text-center text-white'>Counter Apps</h1>
       <div className="shadow-md border-2 border-white p-5 rounded-2xl">
         <h3 className="font-bold text-4xl">{count}</h3>

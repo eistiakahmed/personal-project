@@ -4,14 +4,17 @@ import { NavLink } from 'react-router';
 const Navbar = () => {
   const links = (
     <>
-      <li className='font-medium'>
+      <li className="font-medium">
         <NavLink to="/">Home</NavLink>
       </li>
-      <li className='font-medium'>
+      <li className="font-medium">
         <NavLink to="/counterApp">Counter App</NavLink>
       </li>
-      <li className='font-medium'>
+      <li className="font-medium">
         <NavLink to="/todoApp">To-Do App</NavLink>
+      </li>
+      <li className="font-medium">
+        <NavLink to="/arrayMethod">Array Method</NavLink>
       </li>
     </>
   );

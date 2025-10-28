@@ -8,3 +8,9 @@
 * Add, delete tasks
 * Store in local state
 * Try map() and filter()
+
+---
+
+# Day 3: JS Power
+* Practice array methods: map, filter, reduce
+* Create 3 custom examples for each

@@ -3,6 +3,7 @@ import MainLayouts from '../Layouts/MainLayouts';
 import Home from '../Components/Home';
 import CounterApp from '../Components/CounterApp';
 import ToDoApp from '../Components/ToDoApp';
+import ArrayMethod from '../Components/ArrayMethod';
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/todoApp",
         element: <ToDoApp />
+      },
+      {
+        path: "/arrayMethod",
+        element: <ArrayMethod />
       }
     ],
   },

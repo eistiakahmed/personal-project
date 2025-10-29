@@ -4,6 +4,7 @@ import Home from '../Components/Home';
 import CounterApp from '../Components/CounterApp';
 import ToDoApp from '../Components/ToDoApp';
 import ArrayMethod from '../Components/ArrayMethod';
+import ReactHookDD from '../Components/ReactHookDD';
 
 export const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
       {
         path: "/arrayMethod",
         element: <ArrayMethod />
+      },
+      {
+        path: "/reactDeepDrive",
+        element: <ReactHookDD />
       }
     ],
   },

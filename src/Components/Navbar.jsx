@@ -16,6 +16,10 @@ const Navbar = () => {
       <li className="font-medium">
         <NavLink to="/arrayMethod">Array Method</NavLink>
       </li>
+
+      <li className="font-medium">
+        <NavLink to="/reactDeepDrive">React Hook</NavLink>
+      </li>
     </>
   );
   return (

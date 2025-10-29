@@ -14,3 +14,9 @@
 # Day 3: JS Power
 * Practice array methods: map, filter, reduce
 * Create 3 custom examples for each
+
+
+---
+# Day 4: React Hooks Deep Dive
+* useState, useEffect
+* Make a small app that changes text after delay
